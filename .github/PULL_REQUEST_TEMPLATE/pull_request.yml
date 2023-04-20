@@ -1,0 +1,47 @@
+name: Pull Request
+about: Submit changes to the codebase
+title: ''
+labels: 'pull request'
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Pull Request
+        Please describe the changes you made in detail.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of the changes you made.
+      placeholder: What changes did you make? Why did you make them?
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing
+      description: How did you test your changes?
+      placeholder: What tests did you run? Did you write new tests?
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback Request
+      description: What specific feedback are you looking for?
+      placeholder: What areas do you want reviewed? Do you have any questions?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm that you have completed the following tasks before submitting this pull request.
+      options:
+        - [ ] Ran all tests
+        - [ ] Checked for code formatting issues
+        - [ ] Checked for linting issues
+        - [ ] Reviewed documentation updates
+        - [ ] Reviewed test coverage
+
+assignees:
+  - default-assignee

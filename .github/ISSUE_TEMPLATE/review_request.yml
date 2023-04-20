@@ -1,0 +1,57 @@
+name: Review Request
+about: Request a review for a code change
+title: ''
+labels: 'review'
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Review Request
+        Please provide the details for the code change you would like reviewed.
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide a detailed description of the code change you made.
+      placeholder: What changes did you make? Why did you make them?
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What type of code change is this?
+      options:
+        - Feature
+        - Bug fix
+        - Performance improvement
+        - Refactoring
+        - Documentation update
+      default: Feature
+
+  - type: textarea
+    id: testing
+    attributes:
+      label: Testing
+      description: How did you test your changes?
+      placeholder: What tests did you run? Did you write new tests?
+
+  - type: textarea
+    id: feedback
+    attributes:
+      label: Feedback Request
+      description: What specific feedback are you looking for?
+      placeholder: What areas do you want reviewed? Do you have any questions?
+
+  - type: checkboxes
+    id: checklist
+    attributes:
+      label: Checklist
+      description: Please confirm that you have completed the following tasks before submitting this review request.
+      options:
+        - [ ] Ran all tests
+        - [ ] Checked for code formatting issues
+        - [ ] Checked for linting issues
+        - [ ] Reviewed documentation updates
+        - [ ] Reviewed test coverage

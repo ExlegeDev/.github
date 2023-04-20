@@ -1,0 +1,67 @@
+name: Feature Request
+about: Suggest a new feature for this project
+title: ''
+labels: 'feature request'
+assignees: ''
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ## Feature Request
+        Please describe your feature request in detail.
+
+  - type: dropdown
+    id: type
+    attributes:
+      label: Type
+      description: What type of feature is this?
+
+      options:
+        - New Feature
+        - Enhancement
+        - UI/UX Improvement
+        - Performance Improvement
+      default: New Feature
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Feature description
+      description: Provide a detailed description of the feature you are requesting.
+      placeholder: What feature would you like to see implemented?
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Motivation
+      description: Why is this feature important to you? How will it improve the project or benefit its users?
+      placeholder: Why do you think this feature should be added?
+
+  - type: textarea
+    id: proposed-implementation
+    attributes:
+      label: Proposed Implementation
+      description: How do you envision this feature being implemented? Are there any technical details or requirements to consider?
+      placeholder: How do you propose implementing this feature?
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: What is the priority of this feature request?
+      options:
+        - High
+        - Medium
+        - Low
+      default: Medium
+
+  - type: markdown
+    attribute:
+      value: """ Types of Issues """
+        New feature: These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
+        Improvements to existing feature: These requests involve improving existing features in the application. Improvements can include enhancing the functionality of a feature, improving the user interface, or increasing the speed and performance of the feature.
+        Bug fixes: These requests are related to fixing errors or bugs in the application that are affecting its performance or causing issues for users.
+        Integration request: These requests are related to integrating the application with other third-party tools or services to improve its functionality or provide additional capabilities to users.
+        Accessibility request: These requests are related to improving the accessibility of the application for users with disabilities. They can include adding support for screen readers, improving color contrast, or adding keyboard shortcuts.
+        Security request: These requests are related to improving the security of the application. They can include adding two-factor authentication, improving encryption, or implementing better password policies.
+        Performance request: These requests are related to improving the performance of the application. They can include optimizing the application's code, reducing loading times, or improving scalability.
