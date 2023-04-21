@@ -41,6 +41,7 @@ body:
         - Low
 
   - type: markdown
+    id: feature-request
     attributes:
       value: |
         ## Feature Request
