@@ -1,7 +1,7 @@
-name: 'Bug Report'
+name: "\U0001F41E Bug Report"
 description: Create a report to help us improve functionality
-title: ''
-labels: '🐞[BUG]: '
+title: '🐞[BUG]: '
+labels: 'BUG'
 body:
   - type: markdown
     attributes:
@@ -32,7 +32,6 @@ body:
         - Critical
         - Major
         - Minor
-      default: Major
 
   - type: dropdown
     id: priority
@@ -43,4 +42,3 @@ body:
         - High
         - Medium
         - Low
-      default: Medium
