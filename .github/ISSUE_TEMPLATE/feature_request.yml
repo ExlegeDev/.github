@@ -67,7 +67,7 @@ body:
       placeholder: How do you propose implementing this feature?
 
   - type: markdown
-    attribute:
+    id: issue-types
       value: | 
              ## Types of Issues
              New feature - These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
