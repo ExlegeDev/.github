@@ -1,7 +1,7 @@
-name: "\U0001F4A1 Feature Request"
+name: "\U0001F680 Feature Request"
 description: Suggest a new feature for this project
-title:'💡[FET]: '
-labels: 'feature-request'
+title: '🚀 [FET]: '
+labels: 'feature request'
 body:
   - type: markdown
     attributes:
