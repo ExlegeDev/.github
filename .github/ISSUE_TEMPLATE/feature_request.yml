@@ -62,7 +62,7 @@ body:
   - type: markdown
     id: issue-types
     attributes:
-      value: "## Types of Issues"
+      value: ## Types of Issues 
        New feature - These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
        Enhancement - These requests involve improving existing features in the application. Improvements can include enhancing the functionality of a feature, improving the user interface, or increasing the speed and performance of the feature.
        Integration request - These requests are related to integrating the application with other third-party tools or services to improve its functionality or provide additional capabilities to users.
