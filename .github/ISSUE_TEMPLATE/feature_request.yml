@@ -1,6 +1,6 @@
 name: :rocket: Feature Request
 description: Suggest a new feature for this project
-title: '[FET]: '
+title: ':rocket:[FET]: '
 labels: 'feature request'
 body:
   - type: markdown
