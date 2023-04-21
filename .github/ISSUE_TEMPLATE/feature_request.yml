@@ -1,7 +1,7 @@
 name: Feature Request
 title: '[FET]: '
 labels: 'feature request'
-assignees: "      "
+# assignees: "      "
 body:
   - type: markdown
     attributes:
