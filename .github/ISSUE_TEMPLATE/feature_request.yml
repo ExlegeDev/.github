@@ -9,17 +9,17 @@ body:
         ## Feature Request
         Please describe your feature request in detail. 
 
-    - type: dropdown
-    id: feature-type
-    attributes:
-      label: Feature Type
-      description: What type of feature is this?
-      options:
-        - New Feature
-        - Enhancement
-        - Integration request
-        - Accessibility request
-        - Performance Improvement
+  - type: dropdown
+  id: feature-type
+  attributes:
+    label: Feature Type
+    description: What type of feature is this?
+    options:
+      - New Feature
+      - Enhancement
+      - Integration request
+      - Accessibility request
+      - Performance Improvement
    
   - type: dropdown
     id: priority
