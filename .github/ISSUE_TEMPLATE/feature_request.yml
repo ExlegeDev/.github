@@ -59,13 +59,6 @@ body:
         - Accessibility request
         - Performance Improvement
 
-  - type: textarea
-    id: proposed-implementation
-    attributes:
-      label: Proposed Implementation
-      description: How do you envision this feature being implemented? Are there any technical details or requirements to consider?
-      placeholder: How do you propose implementing this feature?
-
   - type: markdown
     id: issue-types
     attributes:
