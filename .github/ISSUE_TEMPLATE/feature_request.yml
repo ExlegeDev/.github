@@ -49,9 +49,8 @@ body:
   - type: dropdown
     id: feature type
     attributes:
-      label: Type
+      label: Feature Type
       description: What type of feature is this?
-
       options:
         - New Feature
         - Enhancement
@@ -66,20 +65,11 @@ body:
       description: How do you envision this feature being implemented? Are there any technical details or requirements to consider?
       placeholder: How do you propose implementing this feature?
 
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: What is the priority of this feature request?
-      options:
-        - High
-        - Medium
-        - Low
-
   - type: markdown
-    id: issue descriptions
+    id: issue-types
     attribute:
-      value: Types of Issues
+      value: 
+             ## Types of Issues
              New feature - These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
              Enhancement - These requests involve improving existing features in the application. Improvements can include enhancing the functionality of a feature, improving the user interface, or increasing the speed and performance of the feature.
              Integration request - These requests are related to integrating the application with other third-party tools or services to improve its functionality or provide additional capabilities to users.
