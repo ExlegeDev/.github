@@ -1,8 +1,7 @@
 name: "\U0001F3C3 User Journey"
-about: Describe a user journey for a specific task
+description: Describe a user journey for a specific task
 title: '🏃[REQ]: <as this role, I want to be able to x> '
 labels: 'user journey, enhancement'
-assignees: ''
 body:
   - type: markdown
     attributes:
