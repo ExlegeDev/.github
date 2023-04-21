@@ -1,6 +1,6 @@
 name: "\U0001F680 Feature Request"
 description: Suggest a new feature for this project
-title: '\U0001F680 [FET]: '
+title: '🚀 [FET]: '
 labels: 'feature request'
 body:
   - type: markdown
@@ -9,6 +9,28 @@ body:
         ## Feature Request
         Please describe your feature request in detail. 
 
+    - type: dropdown
+    id: feature-type
+    attributes:
+      label: Feature Type
+      description: What type of feature is this?
+      options:
+        - New Feature
+        - Enhancement
+        - Integration request
+        - Accessibility request
+        - Performance Improvement
+   
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      description: What is the priority of this feature request?
+      options:
+        - High
+        - Medium
+        - Low
+  
   - type: textarea
     id: description
     attributes:
@@ -30,16 +52,6 @@ body:
       description: How do you envision this feature being implemented? Are there any technical details or requirements to consider?
       placeholder: How do you propose implementing this feature?
 
-  - type: dropdown
-    id: priority
-    attributes:
-      label: Priority
-      description: What is the priority of this feature request?
-      options:
-        - High
-        - Medium
-        - Low
-
   - type: markdown
     id: feature-request
     attributes:
@@ -47,24 +59,12 @@ body:
         ## Feature Request
         Please describe your feature request in detail.
 
-  - type: dropdown
-    id: feature-type
-    attributes:
-      label: Feature Type
-      description: What type of feature is this?
-      options:
-        - New Feature
-        - Enhancement
-        - Integration request
-        - Accessibility request
-        - Performance Improvement
-
   - type: markdown
-    id: issue-types
+    id: issue-types-descriptions
     attributes:
       value: |
         ## Types of Issues
-        
+        -----------
         NEW FEATURE - These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
         ENHANCEMENT - These requests involve improving existing features in the application. Improvements can include enhancing the functionality of a feature, improving the user interface, or increasing the speed and performance of the feature.
         INTEGRATION REQUEST - These requests are related to integrating the application with other third-party tools or services to improve its functionality or provide additional capabilities to users.
