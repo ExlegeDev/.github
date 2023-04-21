@@ -67,7 +67,7 @@ body:
       placeholder: How do you propose implementing this feature?
 
   - type: markdown
+    id: issue-types
     attributes:
-#     id: issue-types
       value: "## Types of Issues"
             
