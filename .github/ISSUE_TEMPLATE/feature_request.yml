@@ -64,14 +64,13 @@ body:
     attributes:
       value: |
         ## Types of Issues
-        """
+        
         NEW FEATURE - These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
         ENHANCEMENT - These requests involve improving existing features in the application. Improvements can include enhancing the functionality of a feature, improving the user interface, or increasing the speed and performance of the feature.
         INTEGRATION REQUEST - These requests are related to integrating the application with other third-party tools or services to improve its functionality or provide additional capabilities to users.
         ACCESSIBILITY REQUEST - These requests are related to improving the accessibility of the application for users with disabilities. They can include adding support for screen readers, improving color contrast, or adding keyboard shortcuts.
         PERFORMANCE IMPROVEMENT REQUEST - These requests are related to improving the performance of the application. They can include optimizing the application's code, reducing loading times, or improving scalability.
-        -----
+        -----------
         BUG FIXES - USE BUG ISSUE REQUEST. These requests are related to fixing errors or bugs in the application that are affecting its performance or causing issues for users.
         SECURITY REQUESTS - USE SECURITY ISSUE REQUEST. These requests are related to improving the security of the application. They can include adding two-factor authentication, improving encryption, or implementing better password policies.
-        -----
-        """
+        
