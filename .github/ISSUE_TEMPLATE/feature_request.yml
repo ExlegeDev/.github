@@ -39,4 +39,3 @@ body:
         - High
         - Medium
         - Low
-      default: Medium
