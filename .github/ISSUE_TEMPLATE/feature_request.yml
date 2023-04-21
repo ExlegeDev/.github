@@ -48,7 +48,7 @@ body:
         Please describe your feature request in detail.
 
   - type: dropdown
-    id: feature type
+    id: feature-type
     attributes:
       label: Feature Type
       description: What type of feature is this?
@@ -69,7 +69,7 @@ body:
   - type: markdown
     id: issue-types
     attribute:
-      value: 
+      value: | 
              ## Types of Issues
              New feature - These are requests for entirely new functionality that does not currently exist in the application. New features can be designed to improve the user experience, add new capabilities, or address gaps in functionality.
              Enhancement - These requests involve improving existing features in the application. Improvements can include enhancing the functionality of a feature, improving the user interface, or increasing the speed and performance of the feature.
