@@ -1,8 +1,7 @@
 name: Feature Request
-about: Suggest a new feature for this project
 title: '[FET]: '
 labels: 'feature request'
-# assignees: "      "
+assignees:
 body:
   - type: markdown
     attributes:
@@ -14,7 +13,7 @@ body:
     id: description
     attributes:
       label: Feature description
-      description: Provide a detailed description of the feature you are requesting.
+      description: Provide a detailed description of the feature you are requesting. Suggest a new feature for this project
       placeholder: What feature would you like to see implemented?
 
   - type: textarea
